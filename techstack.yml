@@ -1,7 +1,7 @@
 repo_name: emmanu-yahoo/brakeman
-report_id: 2ac15c7bd9ddc1e5fc23250e8da2d9bc
+report_id: f2e4de5adc005c3be7c73e0df6230791
 repo_type: Public
-timestamp: '2023-11-30T16:09:40+00:00'
+timestamp: '2023-11-30T17:12:45+00:00'
 requested_by: presidentbeef
 provider: github
 branch: main
