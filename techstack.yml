@@ -1,7 +1,7 @@
 repo_name: emmanu-yahoo/brakeman
-report_id: f2e4de5adc005c3be7c73e0df6230791
+report_id: 231cb92e5481c9d1b07e816f305c1af9
 repo_type: Public
-timestamp: '2023-11-30T17:12:45+00:00'
+timestamp: '2023-12-01T20:02:50+00:00'
 requested_by: presidentbeef
 provider: github
 branch: main
@@ -38,6 +38,8 @@ tools:
   image_url: https://img.stackshare.io/service/1169/Picture_2.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile
   detection_source: test/apps/rails4/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2013-03-30 01:19:26.000000000 Z
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
@@ -70,6 +72,8 @@ tools:
   image_url: https://img.stackshare.io/service/990/x57_Lorv.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
 - name: jQuery
   description: The Write Less, Do More, JavaScript Library.
   website_url: http://jquery.com/
@@ -80,6 +84,8 @@ tools:
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
 - name: PostgreSQL
   description: A powerful, open source object-relational database system
   website_url: http://www.postgresql.org/
@@ -89,6 +95,8 @@ tools:
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
   detection_source: test/apps/rails4/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2013-03-30 01:19:26.000000000 Z
 - name: SQLite
   description: A software library that implements a self-contained, serverless, zero-configuration,
     transactional SQL database engine
@@ -99,6 +107,8 @@ tools:
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
   detection_source: test/apps/rails3.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2012-09-25 23:11:50.000000000 Z
 - name: Babel
   description: Use next generation JavaScript, today.
   website_url: http://babeljs.io/
@@ -111,6 +121,8 @@ tools:
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails6/yarn.lock
   detection_source: test/apps/rails6/babel.config.js
+  last_updated_by: Justin Collins
+  last_updated_on: 2019-03-15 22:46:08.000000000 Z
 - name: Capybara
   description: Acceptance test framework for web applications
   website_url: http://jnicklas.github.io/capybara/
@@ -123,6 +135,8 @@ tools:
   image_url: https://img.stackshare.io/service/2595/capybara.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: CircleCI
   description: Automate your development process quickly, safely, and at scale
   website_url: https://circleci.com/
@@ -132,6 +146,8 @@ tools:
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
   detection_source: ".circleci/config.yml"
+  last_updated_by: Justin Collins
+  last_updated_on: 2018-09-28 22:00:07.000000000 Z
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
   website_url: https://www.docker.com/
@@ -160,6 +176,8 @@ tools:
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
   detection_source: ".github/workflows/docker-hub-push.yml"
+  last_updated_by: Pavel Lobashov
+  last_updated_on: 2022-08-11 14:25:17.000000000 Z
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
     IBM, and Lyft
@@ -173,6 +191,8 @@ tools:
   image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails6/yarn.lock
   detection_source: test/apps/rails2/config/database.yml
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-06-29 18:33:52.000000000 Z
 - name: Puma
   description: A Modern, Concurrent Web Server for Ruby
   website_url: http://puma.io/
@@ -185,6 +205,8 @@ tools:
   image_url: https://img.stackshare.io/service/1055/favicon.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: Rails Spring
   description: Rails application preloader
   website_url: https://github.com/rails/spring
@@ -197,6 +219,8 @@ tools:
   image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -206,6 +230,8 @@ tools:
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
   detection_source: test/apps/rails7/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2021-12-09 06:07:33.000000000 Z
 - name: Webpack
   description: A bundler for javascript and friends
   website_url: http://webpack.js.org
@@ -218,6 +244,8 @@ tools:
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails6/yarn.lock
   detection_source: test/apps/rails6/package.json
+  last_updated_by: Justin Collins
+  last_updated_on: 2019-03-15 22:46:08.000000000 Z
 - name: Webpacker
   description: Use Webpack to manage app-like JavaScript modules in Rails (by Rails)
   website_url: https://github.com/rails/webpacker
@@ -228,6 +256,8 @@ tools:
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source: test/apps/rails6/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2019-03-15 22:46:08.000000000 Z
 - name: Yarn
   description: A new package manager for JavaScript
   website_url: https://yarnpkg.com/
@@ -237,6 +267,8 @@ tools:
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
   detection_source: test/apps/rails6/yarn.lock
+  last_updated_by: Justin Collins
+  last_updated_on: 2019-03-15 22:46:08.000000000 Z
 - name: npm
   description: The package manager for JavaScript.
   website_url: https://www.npmjs.com/
@@ -246,6 +278,8 @@ tools:
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
   detection_source: test/apps/rails6/package.json
+  last_updated_by: Justin Collins
+  last_updated_on: 2019-03-15 22:46:08.000000000 Z
 - name: Twilio SendGrid
   description: Email Delivery. Simplified.
   website_url: http://sendgrid.com
@@ -255,6 +289,8 @@ tools:
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
   detection_source: test/apps/rails2/config/environments/production.rb
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-06-29 18:33:52.000000000 Z
 - name: Bootsnap
   description: Boot large ruby/rails apps faster, by Shopify
   website_url: https://github.com/shopify/bootsnap
@@ -267,12 +303,16 @@ tools:
   image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: NPM Trends
   website_url: https://www.npmtrends.com/
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
   detection_source: test/apps/rails5.2/package.json
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: Turbolinks
   description: Makes navigating your web application faster
   website_url: https://github.com/turbolinks/turbolinks
@@ -285,6 +325,8 @@ tools:
   image_url: https://img.stackshare.io/service/3028/default_ce0a839b05d39c32172761cba1f092a8433d381c.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails6/package.json
+  last_updated_by: Justin Collins
+  last_updated_on: 2019-03-15 22:46:08.000000000 Z
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
   website_url: http://lisperator.net/uglifyjs/
@@ -294,6 +336,8 @@ tools:
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
 - name: activerecord
   description: Databases on Rails
   package_url: https://rubygems.org/activerecord
@@ -306,6 +350,8 @@ tools:
   image_url: https://img.stackshare.io/package/18828/default_07d724f95ff4caf087b38d9eb083e0406bcfdadf.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/active_record_only/Gemfile
+  last_updated_by: Ulysse Buonomo
+  last_updated_on: 2020-08-19 07:28:45.000000000 Z
   vulnerabilities:
   - name: Active Record RCE bug with Serialized Columns
     cve_id: CVE-2022-32224
@@ -385,6 +431,8 @@ tools:
   image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: chromedriver-helper
   description: Deprecated in favor of the 'webdrivers' gem as of 2019-03-31
   package_url: https://rubygems.org/chromedriver-helper
@@ -397,6 +445,8 @@ tools:
   image_url: https://img.stackshare.io/package/19265/default_a5e937e3dfe69893cbf5aef74a1403da8c4c7de2.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: coffee-rails
   description: CoffeeScript adapter for the Rails asset pipeline
   package_url: https://rubygems.org/coffee-rails
@@ -409,6 +459,8 @@ tools:
   image_url: https://img.stackshare.io/package/18896/default_9386886dd1c6c396a11bd4b49732afb9ec444f8d.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
 - name: draper
   description: Draper adds an object-oriented layer of presentation logic to your
     Rails apps
@@ -420,6 +472,8 @@ tools:
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19385/default_b0770ebdd12e1eb479a98261d0175b1714524f87.png
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2012-11-08 03:19:00.000000000 Z
 - name: jbuilder
   description: Create JSON structures via a Builder-style DSL
   package_url: https://rubygems.org/jbuilder
@@ -432,6 +486,8 @@ tools:
   image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails4/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2013-03-30 01:19:26.000000000 Z
 - name: jquery-rails
   description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
     application
@@ -445,6 +501,8 @@ tools:
   image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
   vulnerabilities:
   - name: Cross-Site Scripting (XSS) in jquery
     cve_id: CVE-2015-9251
@@ -518,6 +576,8 @@ tools:
   image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
   vulnerabilities:
   - name: JSON gem has Improper Input Validation vulnerability
     cve_id: CVE-2013-0269
@@ -544,6 +604,8 @@ tools:
   image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: mysql
   description: This is the MySQL API module for Ruby
   package_url: https://rubygems.org/mysql
@@ -556,6 +618,8 @@ tools:
   image_url: https://img.stackshare.io/package/19073/default_d364289890f891c18cffe19a00663dbba30b80b1.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2016-01-18 03:22:04.000000000 Z
 - name: pg
   description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
   package_url: https://rubygems.org/pg
@@ -566,6 +630,8 @@ tools:
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
   detection_source: test/apps/rails4/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2013-03-30 01:19:26.000000000 Z
 - name: rake
   description: Rake is a Make-like program implemented in Ruby
   package_url: https://rubygems.org/rake
@@ -578,6 +644,8 @@ tools:
   image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: Gemfile
+  last_updated_by: Justin
+  last_updated_on: 2019-03-27 22:21:58.000000000 Z
   vulnerabilities:
   - name: OS Command Injection in Rake
     cve_id: CVE-2020-8130
@@ -595,6 +663,8 @@ tools:
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19221/default_b7db538e9852f98777d0e0bd76581546262ce92e.png
   detection_source: test/apps/rails6/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2020-08-01 02:31:31.000000000 Z
 - name: sass-rails
   description: Sass adapter for the Rails asset pipeline
   package_url: https://rubygems.org/sass-rails
@@ -607,6 +677,8 @@ tools:
   image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
 - name: selenium-webdriver
   description: WebDriver is a tool for writing automated tests of websites
   package_url: https://rubygems.org/selenium-webdriver
@@ -619,6 +691,8 @@ tools:
   image_url: https://img.stackshare.io/package/18901/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: slim
   description: Slim is a template language whose goal is reduce the syntax to the
     essential parts without becoming cryptic
@@ -632,6 +706,8 @@ tools:
   image_url: https://img.stackshare.io/package/19007/default_4c97205728d4639063be84bb5e4e2b30307b8911.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2021-04-13 05:24:22.000000000 Z
 - name: spring
   description: Preloads your application so things like console
   package_url: https://rubygems.org/spring
@@ -644,6 +720,8 @@ tools:
   image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: sprockets-rails
   description: Sprockets Rails integration
   package_url: https://rubygems.org/sprockets-rails
@@ -656,6 +734,8 @@ tools:
   image_url: https://img.stackshare.io/package/19198/default_be4b4d308c5637e0747ed40c613027452d6ef0c5.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails7/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2022-09-26 04:48:42.000000000 Z
 - name: sqlite3
   description: This module allows Ruby programs to interface with the SQLite3 database
     engine
@@ -669,6 +749,8 @@ tools:
   image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.2/Gemfile.lock
   detection_source: test/apps/rails3.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2012-09-25 23:11:50.000000000 Z
 - name: therubyracer
   description: Call JavaScript code and manipulate JavaScript objects from Ruby
   package_url: https://rubygems.org/therubyracer
@@ -681,6 +763,8 @@ tools:
   image_url: https://img.stackshare.io/package/19004/default_b93931146bf44c92297cef24be9c35899def9938.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
 - name: tzinfo-data
   description: TZInfo::Data contains data from the IANA Time Zone database packaged
     as Ruby modules for use with TZInfo
@@ -692,6 +776,8 @@ tools:
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
   detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: uglifier
   description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
     in Ruby
@@ -705,6 +791,8 @@ tools:
   image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
   detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
   vulnerabilities:
   - name: Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js
     cve_id: CVE-2015-8857
@@ -725,6 +813,8 @@ tools:
   image_url: https://img.stackshare.io/package/19420/default_16904f646648128b821ee8aabb068fa7a1b5025f.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails7/Gemfile.lock
   detection_source: test/apps/rails7/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2021-12-09 06:07:33.000000000 Z
 - name: webpack-dev-server
   description: Serves a webpack app. Updates the browser on changes
   package_url: https://www.npmjs.com/webpack-dev-server
@@ -737,3 +827,5 @@ tools:
   image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
   detection_source_url: github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails6/yarn.lock
   detection_source: test/apps/rails6/package.json
+  last_updated_by: Justin Collins
+  last_updated_on: 2019-03-15 22:46:08.000000000 Z
