@@ -1,8 +1,8 @@
 repo_name: emmanu-yahoo/brakeman
-report_id: a8a86a97e4136fc98576604730ac60cb
+report_id: f38bf780dfaa845ee6f7b6572bb6f681
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-27T15:53:46+00:00'
+timestamp: '2023-12-27T19:12:51+00:00'
 requested_by: presidentbeef
 provider: github
 branch: main
@@ -179,6 +179,21 @@ tools:
   detection_source: ".github/workflows/docker-hub-push.yml"
   last_updated_by: Pavel Lobashov
   last_updated_on: 2022-08-11 14:25:17.000000000 Z
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  version: 0.11.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails6/yarn.lock
+  detection_source: test/apps/rails2/config/database.yml
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-06-29 18:33:52.000000000 Z
 - name: Puma
   description: A Modern, Concurrent Web Server for Ruby
   website_url: http://puma.io/
@@ -291,6 +306,14 @@ tools:
   detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2017-12-08 21:32:48.000000000 Z
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
+  detection_source: test/apps/rails5.2/package.json
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: Turbolinks
   description: Makes navigating your web application faster
   website_url: https://github.com/turbolinks/turbolinks
@@ -316,27 +339,6 @@ tools:
   detection_source: test/apps/rails3.1/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
-- name: actionpack-page_caching
-  description: Static page caching for Action Pack
-  package_url: https://rubygems.org/actionpack-page_caching
-  version: 1.2.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5/Gemfile
-  detection_source: test/apps/rails5/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2020-05-08 19:57:24.000000000 Z
-  vulnerabilities:
-  - name: Arbitrary file write in actionpack-page_caching gem
-    cve_id: CVE-2020-8159
-    cve_url: https://github.com/advisories/GHSA-mg5p-95m9-rmfp
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 1.2.1
 - name: activerecord
   description: Databases on Rails
   package_url: https://rubygems.org/activerecord
@@ -388,18 +390,18 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 3.2.22.1
-  - name: Moderate severity vulnerability that affects activerecord
-    cve_id: 
-    cve_url: https://github.com/advisories/GHSA-7phj-gmgx-2r66
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 3.2.22.1
   - name: Active Record Improper Input Validation
     cve_id: CVE-2013-1854
     cve_url: https://github.com/advisories/GHSA-3crr-9vmg-864v
     detected_date: Aug 22
     severity: moderate
     first_patched: 3.1.12
+  - name: Moderate severity vulnerability that affects activerecord
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7phj-gmgx-2r66
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.2.22.1
   - name: Active Record allows bypassing of database-query restrictions
     cve_id: CVE-2013-0155
     cve_url: https://github.com/advisories/GHSA-gppp-5xc5-wfpx
@@ -503,36 +505,6 @@ tools:
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
   vulnerabilities:
-  - name: jQuery vulnerable to Cross-Site Scripting (XSS)
-    cve_id: CVE-2011-4969
-    cve_url: https://github.com/advisories/GHSA-579v-mp3v-rrw5
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 1.0.16
-  - name: 'Duplicate Advisory: Prototype Pollution in jquery'
-    cve_id: CVE-2019-5428
-    cve_url: https://github.com/advisories/GHSA-wv67-q8rr-grjp
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 3.4.0
-  - name: jquery-rails and jquery-ujs subject to Exposure of Sensitive Information
-    cve_id: CVE-2015-1840
-    cve_url: https://github.com/advisories/GHSA-4whc-pp4x-9pf3
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 3.1.3
-  - name: jQuery Cross Site Scripting vulnerability
-    cve_id: CVE-2020-23064
-    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
-    detected_date: Jul 8
-    severity: moderate
-    first_patched: 4.4.0
-  - name: Cross-Site Scripting in jquery
-    cve_id: CVE-2020-7656
-    cve_url: https://github.com/advisories/GHSA-q4m3-2j7h-f7xw
-    detected_date: Jul 6
-    severity: moderate
-    first_patched: 2.2.0
   - name: Cross-Site Scripting (XSS) in jquery
     cve_id: CVE-2015-9251
     cve_url: https://github.com/advisories/GHSA-rmxg-73gg-4p98
@@ -540,29 +512,59 @@ tools:
     severity: moderate
     first_patched: 4.2.0
   - name: Cross-Site Scripting in jquery
-    cve_id: CVE-2012-6708
-    cve_url: https://github.com/advisories/GHSA-2pqj-h3vj-pqgw
+    cve_id: CVE-2020-7656
+    cve_url: https://github.com/advisories/GHSA-q4m3-2j7h-f7xw
     detected_date: Jul 6
     severity: moderate
     first_patched: 2.2.0
-  - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
-    cve_id: CVE-2019-11358
-    cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
-    detected_date: May 31
-    severity: moderate
-    first_patched: 4.3.4
-  - name: Potential XSS vulnerability in jQuery
-    cve_id: CVE-2020-11022
-    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 4.4.0
   - name: Potential XSS vulnerability in jQuery
     cve_id: CVE-2020-11023
     cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
     detected_date: May 5
     severity: moderate
     first_patched: 4.4.0
+  - name: jquery-rails and jquery-ujs subject to Exposure of Sensitive Information
+    cve_id: CVE-2015-1840
+    cve_url: https://github.com/advisories/GHSA-4whc-pp4x-9pf3
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.3
+  - name: Cross-Site Scripting in jquery
+    cve_id: CVE-2012-6708
+    cve_url: https://github.com/advisories/GHSA-2pqj-h3vj-pqgw
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 2.2.0
+  - name: jQuery Cross Site Scripting vulnerability
+    cve_id: CVE-2020-23064
+    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.4.0
+  - name: 'Duplicate Advisory: Prototype Pollution in jquery'
+    cve_id: CVE-2019-5428
+    cve_url: https://github.com/advisories/GHSA-wv67-q8rr-grjp
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 3.4.0
+  - name: jQuery vulnerable to Cross-Site Scripting (XSS)
+    cve_id: CVE-2011-4969
+    cve_url: https://github.com/advisories/GHSA-579v-mp3v-rrw5
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 1.6.3
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11022
+    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 4.4.0
+  - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
+    cve_id: CVE-2019-11358
+    cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
+    detected_date: May 31
+    severity: moderate
+    first_patched: 4.3.4
 - name: json
   description: This is a JSON implementation as a Ruby extension in C
   package_url: https://rubygems.org/json
@@ -578,18 +580,18 @@ tools:
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
   vulnerabilities:
-  - name: Unsafe object creation in json RubyGem
-    cve_id: CVE-2020-10663
-    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.3.0
   - name: JSON gem has Improper Input Validation vulnerability
     cve_id: CVE-2013-0269
     cve_url: https://github.com/advisories/GHSA-x457-cw4h-hq5f
     detected_date: Aug 22
     severity: high
     first_patched: 1.5.5
+  - name: Unsafe object creation in json RubyGem
+    cve_id: CVE-2020-10663
+    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.3.0
 - name: listen
   description: The Listen gem listens to file modifications and notifies you about
     the changes
@@ -799,20 +801,6 @@ tools:
     detected_date: Mar 28
     severity: critical
     first_patched: 2.7.2
-- name: web-console
-  description: A debugging tool for your Ruby on Rails applications
-  package_url: https://rubygems.org/web-console
-  version: 3.5.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails5.2/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: webdrivers
   description: Run Selenium tests more easily with install and updates for all supported
     webdrivers
