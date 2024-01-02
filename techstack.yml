@@ -1,17 +1,17 @@
 repo_name: emmanu-yahoo/brakeman
-report_id: f38bf780dfaa845ee6f7b6572bb6f681
+report_id: 81130a2bb5270fdc75e103c8f80fc122
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-27T19:12:51+00:00'
+timestamp: '2024-01-02T12:11:45+00:00'
 requested_by: presidentbeef
 provider: github
 branch: main
-detected_tools_count: 52
+detected_tools_count: 53
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
   website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -21,7 +21,7 @@ tools:
   description: A little language that compiles into JavaScript
   website_url: http://coffeescript.org/
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -32,7 +32,7 @@ tools:
   website_url: http://haml.info/
   version: 5.0.3
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -45,7 +45,7 @@ tools:
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
   website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -55,18 +55,18 @@ tools:
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
   website_url: https://www.ruby-lang.org
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  image_url: https://img.stackshare.io/service/989/ruby.png
+  image_url: https://ucarecdn.com/f37f9014-cba7-466b-a4ce-5cb9584ba991/-/crop/542x541/758,869/-/preview/
   detection_source: Repo Metadata
 - name: Rails
   description: Web development that doesn't hurt
   website_url: http://rubyonrails.org/
   version: 3.1.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
@@ -75,22 +75,10 @@ tools:
   detection_source: test/apps/rails3.1/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
-- name: jQuery
-  description: The Write Less, Do More, JavaScript Library.
-  website_url: http://jquery.com/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Javascript UI Libraries
-  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source: test/apps/rails3.1/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2011-09-08 18:47:26.000000000 Z
 - name: PostgreSQL
   description: A powerful, open source object-relational database system
   website_url: http://www.postgresql.org/
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Data Stores
   sub_category: Databases
@@ -103,7 +91,7 @@ tools:
     transactional SQL database engine
   website_url: http://www.sqlite.org/
   open_source: false
-  hosted_saas: true
+  hosted_saas: false
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
@@ -115,7 +103,7 @@ tools:
   website_url: http://babeljs.io/
   version: 7.3.4
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
@@ -129,7 +117,7 @@ tools:
   website_url: http://jnicklas.github.io/capybara/
   version: 2.16.1
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
@@ -142,7 +130,7 @@ tools:
   description: Automate your development process quickly, safely, and at scale
   website_url: https://circleci.com/
   open_source: false
-  hosted_saas: true
+  hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
@@ -153,7 +141,7 @@ tools:
   description: Enterprise Container Platform for High-Velocity Innovation.
   website_url: https://www.docker.com/
   license: Apache-2.0
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
@@ -162,7 +150,7 @@ tools:
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
@@ -172,7 +160,7 @@ tools:
   description: Automate your workflow from idea to production
   website_url: https://github.com/features/actions
   open_source: false
-  hosted_saas: true
+  hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
@@ -185,7 +173,7 @@ tools:
   website_url: https://istio.io/
   version: 0.11.2
   license: Apache-2.0
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Microservices Tools
@@ -194,26 +182,12 @@ tools:
   detection_source: test/apps/rails2/config/database.yml
   last_updated_by: Justin Collins
   last_updated_on: 2011-06-29 18:33:52.000000000 Z
-- name: Puma
-  description: A Modern, Concurrent Web Server for Ruby
-  website_url: http://puma.io/
-  version: 3.11.0
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Application Hosting
-  sub_category: Web Servers
-  image_url: https://img.stackshare.io/service/1055/favicon.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails5.2/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: Rails Spring
   description: Rails application preloader
   website_url: https://github.com/rails/spring
   version: 2.0.2
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Rails Testing
@@ -238,7 +212,7 @@ tools:
   website_url: http://webpack.js.org
   version: 4.29.6
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
@@ -251,7 +225,7 @@ tools:
   description: Use Webpack to manage app-like JavaScript modules in Rails (by Rails)
   website_url: https://github.com/rails/webpacker
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
@@ -262,7 +236,7 @@ tools:
 - name: Yarn
   description: A new package manager for JavaScript
   website_url: https://yarnpkg.com/
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
@@ -281,23 +255,12 @@ tools:
   detection_source: test/apps/rails6/package.json
   last_updated_by: Justin Collins
   last_updated_on: 2019-03-15 22:46:08.000000000 Z
-- name: Twilio SendGrid
-  description: Email Delivery. Simplified.
-  website_url: http://sendgrid.com
-  open_source: false
-  hosted_saas: true
-  category: Communications
-  sub_category: Transactional Email
-  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
-  detection_source: test/apps/rails2/config/environments/production.rb
-  last_updated_by: Justin Collins
-  last_updated_on: 2011-06-29 18:33:52.000000000 Z
 - name: Bootsnap
   description: Boot large ruby/rails apps faster, by Shopify
   website_url: https://github.com/shopify/bootsnap
   version: 1.1.5
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Application Utilities
   sub_category: Ruby Utilities
@@ -314,12 +277,26 @@ tools:
   detection_source: test/apps/rails5.2/package.json
   last_updated_by: Justin Collins
   last_updated_on: 2017-12-08 21:32:48.000000000 Z
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 3.11.0
+  license: BSD-3-Clause
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
+  detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: Turbolinks
   description: Makes navigating your web application faster
   website_url: https://github.com/turbolinks/turbolinks
   version: 5.0.1
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Application Utilities
   sub_category: Ruby Utilities
@@ -328,14 +305,37 @@ tools:
   detection_source: test/apps/rails6/package.json
   last_updated_by: Justin Collins
   last_updated_on: 2019-03-15 22:46:08.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source: test/apps/rails2/config/environments/production.rb
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-06-29 18:33:52.000000000 Z
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
   website_url: http://lisperator.net/uglifyjs/
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
   detection_source: test/apps/rails3.1/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
@@ -344,7 +344,7 @@ tools:
   package_url: https://rubygems.org/activerecord
   version: 3.1.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -384,52 +384,66 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 3.1.6
-  - name: Active Record Improper Access Control
+  - name: Active record vulnerable to Improper Access Control
     cve_id: CVE-2015-7577
     cve_url: https://github.com/advisories/GHSA-xrr6-3pc4-m447
     detected_date: Aug 22
     severity: moderate
     first_patched: 3.2.22.1
-  - name: Active Record Improper Input Validation
+  - name: Improper Input Validation in Active Record
     cve_id: CVE-2013-1854
     cve_url: https://github.com/advisories/GHSA-3crr-9vmg-864v
     detected_date: Aug 22
     severity: moderate
     first_patched: 3.1.12
-  - name: Moderate severity vulnerability that affects activerecord
-    cve_id: 
-    cve_url: https://github.com/advisories/GHSA-7phj-gmgx-2r66
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 3.2.22.1
-  - name: Active Record allows bypassing of database-query restrictions
-    cve_id: CVE-2013-0155
-    cve_url: https://github.com/advisories/GHSA-gppp-5xc5-wfpx
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 3.1.10
-  - name: ActiveRecord vulnerable to modification of protected model attributes
-    cve_id: CVE-2013-0276
-    cve_url: https://github.com/advisories/GHSA-gr44-7grc-37vq
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 3.1.11
   - name: Active Record vulnerable to SQL Injection via nested query parameters
     cve_id: CVE-2012-2661
     cve_url: https://github.com/advisories/GHSA-fh39-v733-mxfr
     detected_date: Aug 22
     severity: moderate
     first_patched: 3.1.5
+  - name: ActiveRecord vulnerable to modification of protected model attributes
+    cve_id: CVE-2013-0276
+    cve_url: https://github.com/advisories/GHSA-gr44-7grc-37vq
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.11
+  - name: Active Record allows bypassing database-query restrictions
+    cve_id: CVE-2013-0155
+    cve_url: https://github.com/advisories/GHSA-gppp-5xc5-wfpx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.10
+  - name: Moderate severity vulnerability that affects activerecord
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-7phj-gmgx-2r66
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.2.22.1
 - name: byebug
   description: Byebug is a Ruby debugger
   package_url: https://rubygems.org/byebug
   version: 9.1.0
   license: BSD-2-Clause
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
+  detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
+- name: capybara
+  description: Capybara is an integration testing tool for rack based web applications
+  package_url: https://rubygems.org/capybara
+  version: 2.16.1
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18846/default_0c8d4c4a5aa98fa2cea633a4e17ec7b18bca9a16.png
   detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
   detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
@@ -439,7 +453,7 @@ tools:
   package_url: https://rubygems.org/chromedriver-helper
   version: 1.1.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -453,7 +467,7 @@ tools:
   package_url: https://rubygems.org/coffee-rails
   version: 3.1.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -467,7 +481,7 @@ tools:
     Rails apps
   package_url: https://rubygems.org/draper
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -480,7 +494,7 @@ tools:
   package_url: https://rubygems.org/jbuilder
   version: 2.7.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -495,7 +509,7 @@ tools:
   package_url: https://rubygems.org/jquery-rails
   version: 1.0.13
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -505,6 +519,12 @@ tools:
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
   vulnerabilities:
+  - name: Cross-Site Scripting in jquery
+    cve_id: CVE-2012-6708
+    cve_url: https://github.com/advisories/GHSA-2pqj-h3vj-pqgw
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 2.2.0
   - name: Cross-Site Scripting (XSS) in jquery
     cve_id: CVE-2015-9251
     cve_url: https://github.com/advisories/GHSA-rmxg-73gg-4p98
@@ -529,48 +549,24 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 3.1.3
-  - name: Cross-Site Scripting in jquery
-    cve_id: CVE-2012-6708
-    cve_url: https://github.com/advisories/GHSA-2pqj-h3vj-pqgw
-    detected_date: Jul 6
-    severity: moderate
-    first_patched: 2.2.0
-  - name: jQuery Cross Site Scripting vulnerability
-    cve_id: CVE-2020-23064
-    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
-    detected_date: Jul 8
-    severity: moderate
-    first_patched: 4.4.0
-  - name: 'Duplicate Advisory: Prototype Pollution in jquery'
-    cve_id: CVE-2019-5428
-    cve_url: https://github.com/advisories/GHSA-wv67-q8rr-grjp
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 3.4.0
-  - name: jQuery vulnerable to Cross-Site Scripting (XSS)
-    cve_id: CVE-2011-4969
-    cve_url: https://github.com/advisories/GHSA-579v-mp3v-rrw5
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 1.6.3
-  - name: Potential XSS vulnerability in jQuery
-    cve_id: CVE-2020-11022
-    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 4.4.0
   - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
     cve_id: CVE-2019-11358
     cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
     detected_date: May 31
     severity: moderate
     first_patched: 4.3.4
+  - name: jQuery Cross Site Scripting vulnerability
+    cve_id: CVE-2020-23064
+    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.4.0
 - name: json
   description: This is a JSON implementation as a Ruby extension in C
   package_url: https://rubygems.org/json
   version: 1.5.4
   license: Ruby
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -580,25 +576,25 @@ tools:
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
   vulnerabilities:
-  - name: JSON gem has Improper Input Validation vulnerability
-    cve_id: CVE-2013-0269
-    cve_url: https://github.com/advisories/GHSA-x457-cw4h-hq5f
-    detected_date: Aug 22
-    severity: high
-    first_patched: 1.5.5
   - name: Unsafe object creation in json RubyGem
     cve_id: CVE-2020-10663
     cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
     detected_date: Aug 22
     severity: high
     first_patched: 2.3.0
+  - name: JSON gem has Improper Input Validation vulnerability
+    cve_id: CVE-2013-0269
+    cve_url: https://github.com/advisories/GHSA-x457-cw4h-hq5f
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.5.5
 - name: listen
   description: The Listen gem listens to file modifications and notifies you about
     the changes
   package_url: https://rubygems.org/listen
   version: 3.1.5
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -612,7 +608,7 @@ tools:
   package_url: https://rubygems.org/mysql
   version: 2.9.1
   license: Other
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -625,7 +621,7 @@ tools:
   description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
   package_url: https://rubygems.org/pg
   license: BSD-2-Clause
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -638,7 +634,7 @@ tools:
   package_url: https://rubygems.org/rake
   version: 0.9.2
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -658,7 +654,7 @@ tools:
   description: Parse YAML safely
   package_url: https://rubygems.org/safe_yaml
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -671,7 +667,7 @@ tools:
   package_url: https://rubygems.org/sass-rails
   version: 3.1.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -685,7 +681,7 @@ tools:
   package_url: https://rubygems.org/selenium-webdriver
   version: 3.8.0
   license: Apache-2.0
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -700,7 +696,7 @@ tools:
   package_url: https://rubygems.org/slim
   version: 3.0.1
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -709,26 +705,12 @@ tools:
   detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2021-04-13 05:24:22.000000000 Z
-- name: spring
-  description: Preloads your application so things like console
-  package_url: https://rubygems.org/spring
-  version: 2.0.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails5.2/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: sprockets-rails
   description: Sprockets Rails integration
   package_url: https://rubygems.org/sprockets-rails
   version: 3.2.1
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -743,7 +725,7 @@ tools:
   package_url: https://rubygems.org/sqlite3
   version: 1.3.6
   license: BSD-3-Clause
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -757,7 +739,7 @@ tools:
   package_url: https://rubygems.org/therubyracer
   version: 0.9.4
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -766,12 +748,26 @@ tools:
   detection_source: test/apps/rails3.1/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
+- name: turbolinks
+  description: Rails engine for Turbolinks 5 support
+  package_url: https://rubygems.org/turbolinks
+  version: 5.0.1
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19167/default_f74adb1c8d95c3268ea94f5ba9bbb60a0bc900ed.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
+  detection_source: test/apps/rails4/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2013-03-30 01:19:26.000000000 Z
 - name: tzinfo-data
   description: TZInfo::Data contains data from the IANA Time Zone database packaged
     as Ruby modules for use with TZInfo
   package_url: https://rubygems.org/tzinfo-data
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -785,7 +781,7 @@ tools:
   package_url: https://rubygems.org/uglifier
   version: 1.0.3
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -807,7 +803,7 @@ tools:
   package_url: https://rubygems.org/webdrivers
   version: 5.0.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -821,7 +817,7 @@ tools:
   package_url: https://www.npmjs.com/webpack-dev-server
   version: 3.2.1
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
