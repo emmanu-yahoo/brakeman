@@ -3,29 +3,29 @@
 ## Tech Stack
 emmanu-yahoo/brakeman is built on the following main stack:
 
-- [Twilio SendGrid](http://sendgrid.com) – Transactional Email
-- [CircleCI](https://circleci.com/) – Continuous Integration
+- [CoffeeScript](http://coffeescript.org/) – Languages
+- [HAML](http://haml.info/) – Languages
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - [jQuery](http://jquery.com/) – Javascript UI Libraries
 - [PostgreSQL](http://www.postgresql.org/) – Databases
-- [Puma](http://puma.io/) – Web Servers
 - [SQLite](http://www.sqlite.org/) – Databases
-- [HAML](http://haml.info/) – Languages
-- [CoffeeScript](http://coffeescript.org/) – Languages
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Babel](http://babeljs.io/) – JavaScript Compilers
+- [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
+- [CircleCI](https://circleci.com/) – Continuous Integration
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Istio](https://istio.io/) – Microservices Tools
+- [Puma](http://puma.io/) – Web Servers
 - [Rails Spring](https://github.com/rails/spring) – Rails Testing
 - [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
-- [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
-- [Babel](http://babeljs.io/) – JavaScript Compilers
-- [Turbolinks](https://github.com/turbolinks/turbolinks) – Ruby Utilities
-- [Yarn](https://yarnpkg.com/) – Front End Package Manager
 - [Webpacker](https://github.com/rails/webpacker) – JS Build Tools / JS Task Runners
+- [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [Bootsnap](https://github.com/shopify/bootsnap) – Ruby Utilities
-- [Istio](https://istio.io/) – Microservices Tools
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Turbolinks](https://github.com/turbolinks/turbolinks) – Ruby Utilities
+- [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -35,29 +35,29 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 emmanu-yahoo/brakeman is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
-- <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
-- <img width='25' height='25' src='https://ucarecdn.com/f37f9014-cba7-466b-a4ce-5cb9584ba991/-/crop/542x541/758,869/-/preview/' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1178/slQydAMv.png' alt='CoffeeScript'/> [CoffeeScript](http://coffeescript.org/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1169/Picture_2.png' alt='HAML'/> [HAML](http://haml.info/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/service/1071/sqlite.jpg' alt='SQLite'/> [SQLite](http://www.sqlite.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1169/Picture_2.png' alt='HAML'/> [HAML](http://haml.info/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1178/slQydAMv.png' alt='CoffeeScript'/> [CoffeeScript](http://coffeescript.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'/> [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Rails Spring'/> [Rails Spring](https://github.com/rails/spring) – Rails Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'/> [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'/> [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
-- <img width='25' height='25' src='https://img.stackshare.io/service/3028/default_ce0a839b05d39c32172761cba1f092a8433d381c.png' alt='Turbolinks'/> [Turbolinks](https://github.com/turbolinks/turbolinks) – Ruby Utilities
-- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Webpacker'/> [Webpacker](https://github.com/rails/webpacker) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Bootsnap'/> [Bootsnap](https://github.com/shopify/bootsnap) – Ruby Utilities
-- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3028/default_ce0a839b05d39c32172761cba1f092a8433d381c.png' alt='Turbolinks'/> [Turbolinks](https://github.com/turbolinks/turbolinks) – Ruby Utilities
+- <img width='25' height='25' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'/> [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -68,7 +68,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [emmanu-yahoo/brakeman](https://github.com/emmanu-yahoo/brakeman)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|53<br/>Tools used|01/02/24 <br/>Report generated|
+|52<br/>Tools used|03/08/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -107,7 +107,7 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://ucarecdn.com/f37f9014-cba7-466b-a4ce-5cb9584ba991/-/crop/542x541/758,869/-/preview/' alt='Ruby'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'>
   <br>
   <sub><a href="https://www.ruby-lang.org">Ruby</a></sub>
   <br>
@@ -117,7 +117,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (1)
+## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (2)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'>
@@ -127,11 +127,18 @@ Full tech stack [here](/techstack.md)
   <sub>v3.1.0</sub>
 </td>
 
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'>
+  <br>
+  <sub><a href="http://jquery.com/">jQuery</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
 </tr>
 </table>
 
-## <img src=''/> Datab
-ases (2)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (2)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'>
@@ -152,7 +159,7 @@ ases (2)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (13)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (14)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'>
@@ -211,6 +218,16 @@ ases (2)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
+  <br>
+  <sub><a href="http://puma.io/">Puma</a></sub>
+  <br>
+  <sub>v3.11.0</sub>
+</td>
+
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='Rails Spring'>
   <br>
   <sub><a href="https://github.com/rails/spring">Rails Spring</a></sub>
@@ -218,9 +235,7 @@ ases (2)
   <sub>v2.0.2</sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg' alt='RubyGems'>
   <br>
   <sub><a href="https://rubygems.org/">RubyGems</a></sub>
@@ -263,7 +278,20 @@ ases (2)
 </tr>
 </table>
 
-## Other (7)
+## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (1)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'>
+  <br>
+  <sub><a href="http://sendgrid.com">Twilio SendGrid</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+</table>
+
+## Other (4)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='Bootsnap'>
@@ -282,27 +310,11 @@ ases (2)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
-  <br>
-  <sub><a href="http://puma.io/">Puma</a></sub>
-  <br>
-  <sub>v3.11.0</sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3028/default_ce0a839b05d39c32172761cba1f092a8433d381c.png' alt='Turbolinks'>
   <br>
   <sub><a href="https://github.com/turbolinks/turbolinks">Turbolinks</a></sub>
   <br>
   <sub>v5.0.1</sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'>
-  <br>
-  <sub><a href="http://sendgrid.com">Twilio SendGrid</a></sub>
-  <br>
-  <sub></sub>
 </td>
 
 <td align='center'>
@@ -313,33 +325,24 @@ ases (2)
   <sub></sub>
 </td>
 
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'>
-  <br>
-  <sub><a href="http://jquery.com/">jQuery</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
 </tr>
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (25)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (24)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (24)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (23)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[activerecord](https://rubygems.org/activerecord)|v3.1.0|08/19/20|Ulysse Buonomo |MIT|[CVE-2022-32224](https://github.com/advisories/GHSA-3hhc-qp5v-9p2j) (Critical)<br/>[CVE-2022-44566](https://github.com/advisories/GHSA-579w-22j4-4749) (High)<br/>[CVE-2012-6496](https://github.com/advisories/GHSA-gh2w-j7cx-2664) (High)<br/>[CVE-2014-3482](https://github.com/advisories/GHSA-mhwp-qhpc-h3jm) (High)<br/>[CVE-2012-2695](https://github.com/advisories/GHSA-76wq-xw4h-f8wj) (High)<br/>[CVE-2015-7577](https://github.com/advisories/GHSA-xrr6-3pc4-m447) (Moderate)<br/>[CVE-2013-1854](https://github.com/advisories/GHSA-3crr-9vmg-864v) (Moderate)<br/>[CVE-2012-2661](https://github.com/advisories/GHSA-fh39-v733-mxfr) (Moderate)<br/>[CVE-2013-0276](https://github.com/advisories/GHSA-gr44-7grc-37vq) (Moderate)<br/>[CVE-2013-0155](https://github.com/advisories/GHSA-gppp-5xc5-wfpx) (Moderate)<br/>[](https://github.com/advisories/GHSA-7phj-gmgx-2r66) (Moderate)|
+|[activerecord](https://rubygems.org/activerecord)|v3.1.0|08/19/20|Ulysse Buonomo |MIT|[CVE-2022-32224](https://github.com/advisories/GHSA-3hhc-qp5v-9p2j) (Critical)<br/>[CVE-2022-44566](https://github.com/advisories/GHSA-579w-22j4-4749) (High)<br/>[CVE-2012-6496](https://github.com/advisories/GHSA-gh2w-j7cx-2664) (High)<br/>[CVE-2014-3482](https://github.com/advisories/GHSA-mhwp-qhpc-h3jm) (High)<br/>[CVE-2012-2695](https://github.com/advisories/GHSA-76wq-xw4h-f8wj) (High)<br/>[CVE-2015-7577](https://github.com/advisories/GHSA-xrr6-3pc4-m447) (Moderate)<br/>[CVE-2013-1854](https://github.com/advisories/GHSA-3crr-9vmg-864v) (Moderate)<br/>[](https://github.com/advisories/GHSA-7phj-gmgx-2r66) (Moderate)<br/>[CVE-2013-0155](https://github.com/advisories/GHSA-gppp-5xc5-wfpx) (Moderate)<br/>[CVE-2013-0276](https://github.com/advisories/GHSA-gr44-7grc-37vq) (Moderate)<br/>[CVE-2012-2661](https://github.com/advisories/GHSA-fh39-v733-mxfr) (Moderate)|
 |[byebug](https://rubygems.org/byebug)|v9.1.0|12/08/17|Justin Collins |BSD-2-Clause|N/A|
-|[capybara](https://rubygems.org/capybara)|v2.16.1|12/08/17|Justin Collins |MIT|N/A|
 |[chromedriver-helper](https://rubygems.org/chromedriver-helper)|v1.1.0|12/08/17|Justin Collins |MIT|N/A|
 |[coffee-rails](https://rubygems.org/coffee-rails)|v3.1.0|09/08/11|Justin Collins |MIT|N/A|
 |[draper](https://rubygems.org/draper)|N/A|11/08/12|Justin Collins |MIT|N/A|
 |[jbuilder](https://rubygems.org/jbuilder)|v2.7.0|03/30/13|Justin Collins |MIT|N/A|
-|[jquery-rails](https://rubygems.org/jquery-rails)|v1.0.13|09/08/11|Justin Collins |MIT|[CVE-2012-6708](https://github.com/advisories/GHSA-2pqj-h3vj-pqgw) (Moderate)<br/>[CVE-2015-9251](https://github.com/advisories/GHSA-rmxg-73gg-4p98) (Moderate)<br/>[CVE-2020-7656](https://github.com/advisories/GHSA-q4m3-2j7h-f7xw) (Moderate)<br/>[CVE-2020-11023](https://github.com/advisories/GHSA-jpcq-cgw6-v4j6) (Moderate)<br/>[CVE-2015-1840](https://github.com/advisories/GHSA-4whc-pp4x-9pf3) (Moderate)<br/>[CVE-2019-11358](https://github.com/advisories/GHSA-6c3j-c64m-qhgq) (Moderate)<br/>[CVE-2020-23064](https://github.com/advisories/GHSA-257q-pv89-v3xv) (Moderate)|
-|[json](https://rubygems.org/json)|v1.5.4|09/08/11|Justin Collins |Ruby|[CVE-2020-10663](https://github.com/advisories/GHSA-jphg-qwrw-7w9g) (High)<br/>[CVE-2013-0269](https://github.com/advisories/GHSA-x457-cw4h-hq5f) (High)|
+|[jquery-rails](https://rubygems.org/jquery-rails)|v1.0.13|09/08/11|Justin Collins |MIT|[CVE-2015-9251](https://github.com/advisories/GHSA-rmxg-73gg-4p98) (Moderate)<br/>[CVE-2020-7656](https://github.com/advisories/GHSA-q4m3-2j7h-f7xw) (Moderate)<br/>[CVE-2020-11023](https://github.com/advisories/GHSA-jpcq-cgw6-v4j6) (Moderate)<br/>[CVE-2015-1840](https://github.com/advisories/GHSA-4whc-pp4x-9pf3) (Moderate)<br/>[CVE-2012-6708](https://github.com/advisories/GHSA-2pqj-h3vj-pqgw) (Moderate)<br/>[CVE-2020-23064](https://github.com/advisories/GHSA-257q-pv89-v3xv) (Moderate)<br/>[CVE-2019-5428](https://github.com/advisories/GHSA-wv67-q8rr-grjp) (Moderate)<br/>[CVE-2011-4969](https://github.com/advisories/GHSA-579v-mp3v-rrw5) (Moderate)<br/>[CVE-2020-11022](https://github.com/advisories/GHSA-gxr4-xjj5-5px2) (Moderate)<br/>[CVE-2019-11358](https://github.com/advisories/GHSA-6c3j-c64m-qhgq) (Moderate)|
+|[json](https://rubygems.org/json)|v1.5.4|09/08/11|Justin Collins |Ruby|[CVE-2013-0269](https://github.com/advisories/GHSA-x457-cw4h-hq5f) (High)<br/>[CVE-2020-10663](https://github.com/advisories/GHSA-jphg-qwrw-7w9g) (High)|
 |[listen](https://rubygems.org/listen)|v3.1.5|12/08/17|Justin Collins |MIT|N/A|
 |[mysql](https://rubygems.org/mysql)|v2.9.1|01/18/16|Justin Collins |Other|N/A|
 |[pg](https://rubygems.org/pg)|N/A|03/30/13|Justin Collins |BSD-2-Clause|N/A|
@@ -348,10 +351,10 @@ ases (2)
 |[sass-rails](https://rubygems.org/sass-rails)|v3.1.0|09/08/11|Justin Collins |MIT|N/A|
 |[selenium-webdriver](https://rubygems.org/selenium-webdriver)|v3.8.0|12/08/17|Justin Collins |Apache-2.0|N/A|
 |[slim](https://rubygems.org/slim)|v3.0.1|04/13/21|Justin Collins |MIT|N/A|
+|[spring](https://rubygems.org/spring)|v2.0.2|12/08/17|Justin Collins |MIT|N/A|
 |[sprockets-rails](https://rubygems.org/sprockets-rails)|v3.2.1|09/26/22|Justin Collins |MIT|N/A|
 |[sqlite3](https://rubygems.org/sqlite3)|v1.3.6|09/25/12|Justin Collins |BSD-3-Clause|N/A|
 |[therubyracer](https://rubygems.org/therubyracer)|v0.9.4|09/08/11|Justin Collins |MIT|N/A|
-|[turbolinks](https://rubygems.org/turbolinks)|v5.0.1|03/30/13|Justin Collins |MIT|N/A|
 |[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|12/08/17|Justin Collins |MIT|N/A|
 |[uglifier](https://rubygems.org/uglifier)|v1.0.3|09/08/11|Justin Collins |MIT|[CVE-2015-8857](https://github.com/advisories/GHSA-34r7-q49f-h37c) (Critical)|
 |[webdrivers](https://rubygems.org/webdrivers)|v5.0.0|12/09/21|Justin Collins |MIT|N/A|
