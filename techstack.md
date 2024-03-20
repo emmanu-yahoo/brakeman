@@ -68,7 +68,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [emmanu-yahoo/brakeman](https://github.com/emmanu-yahoo/brakeman)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|52<br/>Tools used|03/08/24 <br/>Report generated|
+|53<br/>Tools used|03/20/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -329,14 +329,15 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (24)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (25)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (23)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (24)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[activerecord](https://rubygems.org/activerecord)|v3.1.0|08/19/20|Ulysse Buonomo |MIT|[CVE-2022-32224](https://github.com/advisories/GHSA-3hhc-qp5v-9p2j) (Critical)<br/>[CVE-2022-44566](https://github.com/advisories/GHSA-579w-22j4-4749) (High)<br/>[CVE-2012-6496](https://github.com/advisories/GHSA-gh2w-j7cx-2664) (High)<br/>[CVE-2014-3482](https://github.com/advisories/GHSA-mhwp-qhpc-h3jm) (High)<br/>[CVE-2012-2695](https://github.com/advisories/GHSA-76wq-xw4h-f8wj) (High)<br/>[CVE-2015-7577](https://github.com/advisories/GHSA-xrr6-3pc4-m447) (Moderate)<br/>[CVE-2013-1854](https://github.com/advisories/GHSA-3crr-9vmg-864v) (Moderate)<br/>[](https://github.com/advisories/GHSA-7phj-gmgx-2r66) (Moderate)<br/>[CVE-2013-0155](https://github.com/advisories/GHSA-gppp-5xc5-wfpx) (Moderate)<br/>[CVE-2013-0276](https://github.com/advisories/GHSA-gr44-7grc-37vq) (Moderate)<br/>[CVE-2012-2661](https://github.com/advisories/GHSA-fh39-v733-mxfr) (Moderate)|
 |[byebug](https://rubygems.org/byebug)|v9.1.0|12/08/17|Justin Collins |BSD-2-Clause|N/A|
+|[capybara](https://rubygems.org/capybara)|v2.16.1|12/08/17|Justin Collins |MIT|N/A|
 |[chromedriver-helper](https://rubygems.org/chromedriver-helper)|v1.1.0|12/08/17|Justin Collins |MIT|N/A|
 |[coffee-rails](https://rubygems.org/coffee-rails)|v3.1.0|09/08/11|Justin Collins |MIT|N/A|
 |[draper](https://rubygems.org/draper)|N/A|11/08/12|Justin Collins |MIT|N/A|
@@ -351,10 +352,10 @@ Full tech stack [here](/techstack.md)
 |[sass-rails](https://rubygems.org/sass-rails)|v3.1.0|09/08/11|Justin Collins |MIT|N/A|
 |[selenium-webdriver](https://rubygems.org/selenium-webdriver)|v3.8.0|12/08/17|Justin Collins |Apache-2.0|N/A|
 |[slim](https://rubygems.org/slim)|v3.0.1|04/13/21|Justin Collins |MIT|N/A|
-|[spring](https://rubygems.org/spring)|v2.0.2|12/08/17|Justin Collins |MIT|N/A|
 |[sprockets-rails](https://rubygems.org/sprockets-rails)|v3.2.1|09/26/22|Justin Collins |MIT|N/A|
 |[sqlite3](https://rubygems.org/sqlite3)|v1.3.6|09/25/12|Justin Collins |BSD-3-Clause|N/A|
 |[therubyracer](https://rubygems.org/therubyracer)|v0.9.4|09/08/11|Justin Collins |MIT|N/A|
+|[turbolinks](https://rubygems.org/turbolinks)|v5.0.1|03/30/13|Justin Collins |MIT|N/A|
 |[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|12/08/17|Justin Collins |MIT|N/A|
 |[uglifier](https://rubygems.org/uglifier)|v1.0.3|09/08/11|Justin Collins |MIT|[CVE-2015-8857](https://github.com/advisories/GHSA-34r7-q49f-h37c) (Critical)|
 |[webdrivers](https://rubygems.org/webdrivers)|v5.0.0|12/09/21|Justin Collins |MIT|N/A|
