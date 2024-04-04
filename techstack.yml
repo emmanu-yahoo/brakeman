@@ -1,8 +1,8 @@
 repo_name: emmanu-yahoo/brakeman
-report_id: 8c0553d18d8f8810b05a09a8b8799aae
+report_id: 3556de85245676f336581c0f74e0eb94
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-20T14:22:14+00:00'
+timestamp: '2024-04-04T20:12:25+00:00'
 requested_by: presidentbeef
 provider: github
 branch: main
@@ -438,6 +438,152 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 3.1.5
+- name: uglifier
+  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
+    in Ruby
+  package_url: https://rubygems.org/uglifier
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
+  detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js
+    cve_id: CVE-2015-8857
+    cve_url: https://github.com/advisories/GHSA-34r7-q49f-h37c
+    detected_date: Mar 28
+    severity: critical
+    first_patched: 2.7.2
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  version: 1.5.4
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
+  detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
+  vulnerabilities:
+  - name: JSON gem has Improper Input Validation vulnerability
+    cve_id: CVE-2013-0269
+    cve_url: https://github.com/advisories/GHSA-x457-cw4h-hq5f
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.5.5
+  - name: Unsafe object creation in json RubyGem
+    cve_id: CVE-2020-10663
+    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.3.0
+- name: jquery-rails
+  description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
+    application
+  package_url: https://rubygems.org/jquery-rails
+  version: 1.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
+  detection_source: test/apps/rails3.1/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2011-09-08 18:47:26.000000000 Z
+  vulnerabilities:
+  - name: Cross-Site Scripting (XSS) in jquery
+    cve_id: CVE-2015-9251
+    cve_url: https://github.com/advisories/GHSA-rmxg-73gg-4p98
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 4.2.0
+  - name: Cross-Site Scripting in jquery
+    cve_id: CVE-2020-7656
+    cve_url: https://github.com/advisories/GHSA-q4m3-2j7h-f7xw
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 2.2.0
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11023
+    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
+    detected_date: May 5
+    severity: moderate
+    first_patched: 4.4.0
+  - name: jquery-rails and jquery-ujs subject to Exposure of Sensitive Information
+    cve_id: CVE-2015-1840
+    cve_url: https://github.com/advisories/GHSA-4whc-pp4x-9pf3
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.3
+  - name: Cross-Site Scripting in jquery
+    cve_id: CVE-2012-6708
+    cve_url: https://github.com/advisories/GHSA-2pqj-h3vj-pqgw
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 2.2.0
+  - name: jQuery Cross Site Scripting vulnerability
+    cve_id: CVE-2020-23064
+    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.4.0
+  - name: 'Duplicate Advisory: Prototype Pollution in jquery'
+    cve_id: CVE-2019-5428
+    cve_url: https://github.com/advisories/GHSA-wv67-q8rr-grjp
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 3.4.0
+  - name: jQuery vulnerable to Cross-Site Scripting (XSS)
+    cve_id: CVE-2011-4969
+    cve_url: https://github.com/advisories/GHSA-579v-mp3v-rrw5
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 1.6.3
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11022
+    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 4.4.0
+  - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
+    cve_id: CVE-2019-11358
+    cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
+    detected_date: May 31
+    severity: moderate
+    first_patched: 4.3.4
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Justin
+  last_updated_on: 2019-03-27 22:21:58.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in Rake
+    cve_id: CVE-2020-8130
+    cve_url: https://github.com/advisories/GHSA-jppv-gw3r-w3q8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 12.3.3
 - name: byebug
   description: Byebug is a Ruby debugger
   package_url: https://rubygems.org/byebug
@@ -522,109 +668,6 @@ tools:
   detection_source: test/apps/rails4/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2013-03-30 01:19:26.000000000 Z
-- name: jquery-rails
-  description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
-    application
-  package_url: https://rubygems.org/jquery-rails
-  version: 1.0.13
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
-  detection_source: test/apps/rails3.1/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2011-09-08 18:47:26.000000000 Z
-  vulnerabilities:
-  - name: Cross-Site Scripting (XSS) in jquery
-    cve_id: CVE-2015-9251
-    cve_url: https://github.com/advisories/GHSA-rmxg-73gg-4p98
-    detected_date: Jul 6
-    severity: moderate
-    first_patched: 4.2.0
-  - name: Cross-Site Scripting in jquery
-    cve_id: CVE-2020-7656
-    cve_url: https://github.com/advisories/GHSA-q4m3-2j7h-f7xw
-    detected_date: Jul 6
-    severity: moderate
-    first_patched: 2.2.0
-  - name: Potential XSS vulnerability in jQuery
-    cve_id: CVE-2020-11023
-    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
-    detected_date: May 5
-    severity: moderate
-    first_patched: 4.4.0
-  - name: jquery-rails and jquery-ujs subject to Exposure of Sensitive Information
-    cve_id: CVE-2015-1840
-    cve_url: https://github.com/advisories/GHSA-4whc-pp4x-9pf3
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 3.1.3
-  - name: Cross-Site Scripting in jquery
-    cve_id: CVE-2012-6708
-    cve_url: https://github.com/advisories/GHSA-2pqj-h3vj-pqgw
-    detected_date: Jul 6
-    severity: moderate
-    first_patched: 2.2.0
-  - name: jQuery Cross Site Scripting vulnerability
-    cve_id: CVE-2020-23064
-    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
-    detected_date: Jul 8
-    severity: moderate
-    first_patched: 4.4.0
-  - name: 'Duplicate Advisory: Prototype Pollution in jquery'
-    cve_id: CVE-2019-5428
-    cve_url: https://github.com/advisories/GHSA-wv67-q8rr-grjp
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 3.4.0
-  - name: jQuery vulnerable to Cross-Site Scripting (XSS)
-    cve_id: CVE-2011-4969
-    cve_url: https://github.com/advisories/GHSA-579v-mp3v-rrw5
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 1.6.3
-  - name: Potential XSS vulnerability in jQuery
-    cve_id: CVE-2020-11022
-    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 4.4.0
-  - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
-    cve_id: CVE-2019-11358
-    cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
-    detected_date: May 31
-    severity: moderate
-    first_patched: 4.3.4
-- name: json
-  description: This is a JSON implementation as a Ruby extension in C
-  package_url: https://rubygems.org/json
-  version: 1.5.4
-  license: Ruby
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
-  detection_source: test/apps/rails3.1/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2011-09-08 18:47:26.000000000 Z
-  vulnerabilities:
-  - name: JSON gem has Improper Input Validation vulnerability
-    cve_id: CVE-2013-0269
-    cve_url: https://github.com/advisories/GHSA-x457-cw4h-hq5f
-    detected_date: Aug 22
-    severity: high
-    first_patched: 1.5.5
-  - name: Unsafe object creation in json RubyGem
-    cve_id: CVE-2020-10663
-    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.3.0
 - name: listen
   description: The Listen gem listens to file modifications and notifies you about
     the changes
@@ -667,27 +710,6 @@ tools:
   detection_source: test/apps/rails4/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2013-03-30 01:19:26.000000000 Z
-- name: rake
-  description: Rake is a Make-like program implemented in Ruby
-  package_url: https://rubygems.org/rake
-  version: 0.9.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Justin
-  last_updated_on: 2019-03-27 22:21:58.000000000 Z
-  vulnerabilities:
-  - name: OS Command Injection in Rake
-    cve_id: CVE-2020-8130
-    cve_url: https://github.com/advisories/GHSA-jppv-gw3r-w3q8
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 12.3.3
 - name: safe_yaml
   description: Parse YAML safely
   package_url: https://rubygems.org/safe_yaml
@@ -815,28 +837,6 @@ tools:
   detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2017-12-08 21:32:48.000000000 Z
-- name: uglifier
-  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
-    in Ruby
-  package_url: https://rubygems.org/uglifier
-  version: 1.0.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails3.1/Gemfile.lock
-  detection_source: test/apps/rails3.1/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2011-09-08 18:47:26.000000000 Z
-  vulnerabilities:
-  - name: Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js
-    cve_id: CVE-2015-8857
-    cve_url: https://github.com/advisories/GHSA-34r7-q49f-h37c
-    detected_date: Mar 28
-    severity: critical
-    first_patched: 2.7.2
 - name: webdrivers
   description: Run Selenium tests more easily with install and updates for all supported
     webdrivers
