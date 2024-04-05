@@ -1,12 +1,12 @@
 repo_name: emmanu-yahoo/brakeman
-report_id: dbea0cf22d287871dc936471a2bfad16
+report_id: 59b2614ade523107fe4ff28d819f73ab
 version: 0.1
 repo_type: Public
-timestamp: '2024-04-05T12:22:50+00:00'
+timestamp: '2024-04-05T13:49:03+00:00'
 requested_by: presidentbeef
 provider: github
 branch: main
-detected_tools_count: 48
+detected_tools_count: 52
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -142,9 +142,9 @@ tools:
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2595/capybara.png
   detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails7/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
-  last_updated_on: 2021-12-09 06:07:33.000000000 Z
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: CircleCI
   description: Automate your development process quickly, safely, and at scale
   website_url: https://circleci.com/
@@ -216,9 +216,9 @@ tools:
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1055/favicon.png
   detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails5/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
-  last_updated_on: 2016-01-16 00:30:18.000000000 Z
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: Rails Spring
   description: Rails application preloader
   website_url: https://github.com/rails/spring
@@ -230,9 +230,9 @@ tools:
   sub_category: Rails Testing
   image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails5/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
-  last_updated_on: 2016-01-16 00:30:18.000000000 Z
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -268,8 +268,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails6/package.json
-  detection_source: test/apps/rails6/package.json
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails6/Gemfile
+  detection_source: test/apps/rails6/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2019-03-15 22:46:08.000000000 Z
 - name: Yarn
@@ -319,9 +319,9 @@ tools:
   sub_category: Ruby Utilities
   image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails7/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
-  last_updated_on: 2021-12-09 06:07:33.000000000 Z
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: NPM Trends
   website_url: https://www.npmtrends.com/
   open_source: false
@@ -595,9 +595,23 @@ tools:
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
   detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails5/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
-  last_updated_on: 2016-01-16 00:30:18.000000000 Z
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
+- name: chromedriver-helper
+  description: Deprecated in favor of the 'webdrivers' gem as of 2019-03-31
+  package_url: https://rubygems.org/chromedriver-helper
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19265/default_a5e937e3dfe69893cbf5aef74a1403da8c4c7de2.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
+  detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: coffee-rails
   description: CoffeeScript adapter for the Rails asset pipeline
   package_url: https://rubygems.org/coffee-rails
@@ -640,6 +654,21 @@ tools:
   detection_source: test/apps/rails4/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2013-03-30 01:19:26.000000000 Z
+- name: listen
+  description: The Listen gem listens to file modifications and notifies you about
+    the changes
+  package_url: https://rubygems.org/listen
+  version: 3.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
+  detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: mysql
   description: This is the MySQL API module for Ruby
   package_url: https://rubygems.org/mysql
@@ -667,6 +696,19 @@ tools:
   detection_source: test/apps/rails4/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2013-03-30 01:19:26.000000000 Z
+- name: safe_yaml
+  description: Parse YAML safely
+  package_url: https://rubygems.org/safe_yaml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19221/default_b7db538e9852f98777d0e0bd76581546262ce92e.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails6/Gemfile
+  detection_source: test/apps/rails6/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2020-08-01 02:31:31.000000000 Z
 - name: sass-rails
   description: Sass adapter for the Rails asset pipeline
   package_url: https://rubygems.org/sass-rails
@@ -692,9 +734,24 @@ tools:
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18901/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
   detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails7/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
-  last_updated_on: 2021-12-09 06:07:33.000000000 Z
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
+- name: slim
+  description: Slim is a template language whose goal is reduce the syntax to the
+    essential parts without becoming cryptic
+  package_url: https://rubygems.org/slim
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19007/default_4c97205728d4639063be84bb5e4e2b30307b8911.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2021-04-13 05:24:22.000000000 Z
 - name: spring
   description: Preloads your application so things like console
   package_url: https://rubygems.org/spring
@@ -706,9 +763,9 @@ tools:
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
   detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails5/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
-  last_updated_on: 2016-01-16 00:30:18.000000000 Z
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: sprockets-rails
   description: Sprockets Rails integration
   package_url: https://rubygems.org/sprockets-rails
@@ -762,10 +819,10 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5/Gemfile
-  detection_source: test/apps/rails5/Gemfile
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile
+  detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
-  last_updated_on: 2016-01-16 00:30:18.000000000 Z
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: webdrivers
   description: Run Selenium tests more easily with install and updates for all supported
     webdrivers
