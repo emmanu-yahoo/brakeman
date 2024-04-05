@@ -1,12 +1,12 @@
 repo_name: emmanu-yahoo/brakeman
-report_id: 3556de85245676f336581c0f74e0eb94
+report_id: 7374a5c30aeba7bd8300d181112f137f
 version: 0.1
 repo_type: Public
-timestamp: '2024-04-04T20:12:25+00:00'
+timestamp: '2024-04-05T11:38:34+00:00'
 requested_by: presidentbeef
 provider: github
 branch: main
-detected_tools_count: 53
+detected_tools_count: 52
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -598,20 +598,6 @@ tools:
   detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2017-12-08 21:32:48.000000000 Z
-- name: capybara
-  description: Capybara is an integration testing tool for rack based web applications
-  package_url: https://rubygems.org/capybara
-  version: 2.16.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18846/default_0c8d4c4a5aa98fa2cea633a4e17ec7b18bca9a16.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails5.2/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: chromedriver-helper
   description: Deprecated in favor of the 'webdrivers' gem as of 2019-03-31
   package_url: https://rubygems.org/chromedriver-helper
@@ -766,6 +752,20 @@ tools:
   detection_source: test/apps/rails5.2/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2021-04-13 05:24:22.000000000 Z
+- name: spring
+  description: Preloads your application so things like console
+  package_url: https://rubygems.org/spring
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
+  detection_source: test/apps/rails5.2/Gemfile
+  last_updated_by: Justin Collins
+  last_updated_on: 2017-12-08 21:32:48.000000000 Z
 - name: sprockets-rails
   description: Sprockets Rails integration
   package_url: https://rubygems.org/sprockets-rails
@@ -809,20 +809,6 @@ tools:
   detection_source: test/apps/rails3.1/Gemfile
   last_updated_by: Justin Collins
   last_updated_on: 2011-09-08 18:47:26.000000000 Z
-- name: turbolinks
-  description: Rails engine for Turbolinks 5 support
-  package_url: https://rubygems.org/turbolinks
-  version: 5.0.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19167/default_f74adb1c8d95c3268ea94f5ba9bbb60a0bc900ed.png
-  detection_source_url: https://github.com/emmanu-yahoo/brakeman/blob/main/test/apps/rails5.2/Gemfile.lock
-  detection_source: test/apps/rails4/Gemfile
-  last_updated_by: Justin Collins
-  last_updated_on: 2013-03-30 01:19:26.000000000 Z
 - name: tzinfo-data
   description: TZInfo::Data contains data from the IANA Time Zone database packaged
     as Ruby modules for use with TZInfo
