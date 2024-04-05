@@ -68,7 +68,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [emmanu-yahoo/brakeman](https://github.com/emmanu-yahoo/brakeman)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|53<br/>Tools used|04/04/24 <br/>Report generated|
+|52<br/>Tools used|04/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -329,9 +329,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (25)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (24)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (24)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (23)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -341,7 +341,6 @@ Full tech stack [here](/techstack.md)
 |[jquery-rails](https://rubygems.org/jquery-rails)|v1.0.13|09/08/11|Justin Collins |MIT|[CVE-2015-9251](https://github.com/advisories/GHSA-rmxg-73gg-4p98) (Moderate)<br/>[CVE-2020-7656](https://github.com/advisories/GHSA-q4m3-2j7h-f7xw) (Moderate)<br/>[CVE-2020-11023](https://github.com/advisories/GHSA-jpcq-cgw6-v4j6) (Moderate)<br/>[CVE-2015-1840](https://github.com/advisories/GHSA-4whc-pp4x-9pf3) (Moderate)<br/>[CVE-2012-6708](https://github.com/advisories/GHSA-2pqj-h3vj-pqgw) (Moderate)<br/>[CVE-2020-23064](https://github.com/advisories/GHSA-257q-pv89-v3xv) (Moderate)<br/>[CVE-2019-5428](https://github.com/advisories/GHSA-wv67-q8rr-grjp) (Moderate)<br/>[CVE-2011-4969](https://github.com/advisories/GHSA-579v-mp3v-rrw5) (Moderate)<br/>[CVE-2020-11022](https://github.com/advisories/GHSA-gxr4-xjj5-5px2) (Moderate)<br/>[CVE-2019-11358](https://github.com/advisories/GHSA-6c3j-c64m-qhgq) (Moderate)|
 |[rake](https://rubygems.org/rake)|v0.9.2|03/27/19|Justin |MIT|[CVE-2020-8130](https://github.com/advisories/GHSA-jppv-gw3r-w3q8) (Moderate)|
 |[byebug](https://rubygems.org/byebug)|v9.1.0|12/08/17|Justin Collins |BSD-2-Clause|N/A|
-|[capybara](https://rubygems.org/capybara)|v2.16.1|12/08/17|Justin Collins |MIT|N/A|
 |[chromedriver-helper](https://rubygems.org/chromedriver-helper)|v1.1.0|12/08/17|Justin Collins |MIT|N/A|
 |[coffee-rails](https://rubygems.org/coffee-rails)|v3.1.0|09/08/11|Justin Collins |MIT|N/A|
 |[draper](https://rubygems.org/draper)|N/A|11/08/12|Justin Collins |MIT|N/A|
@@ -353,10 +352,10 @@ Full tech stack [here](/techstack.md)
 |[sass-rails](https://rubygems.org/sass-rails)|v3.1.0|09/08/11|Justin Collins |MIT|N/A|
 |[selenium-webdriver](https://rubygems.org/selenium-webdriver)|v3.8.0|12/08/17|Justin Collins |Apache-2.0|N/A|
 |[slim](https://rubygems.org/slim)|v3.0.1|04/13/21|Justin Collins |MIT|N/A|
+|[spring](https://rubygems.org/spring)|v2.0.2|12/08/17|Justin Collins |MIT|N/A|
 |[sprockets-rails](https://rubygems.org/sprockets-rails)|v3.2.1|09/26/22|Justin Collins |MIT|N/A|
 |[sqlite3](https://rubygems.org/sqlite3)|v1.3.6|09/25/12|Justin Collins |BSD-3-Clause|N/A|
 |[therubyracer](https://rubygems.org/therubyracer)|v0.9.4|09/08/11|Justin Collins |MIT|N/A|
-|[turbolinks](https://rubygems.org/turbolinks)|v5.0.1|03/30/13|Justin Collins |MIT|N/A|
 |[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|12/08/17|Justin Collins |MIT|N/A|
 |[webdrivers](https://rubygems.org/webdrivers)|v5.0.0|12/09/21|Justin Collins |MIT|N/A|
 
